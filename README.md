@@ -1,6 +1,6 @@
 # npmtest-extend
 
-#### test coverage for  [extend (v3.0.0)](https://github.com/justmoon/node-extend#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-extend.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-extend) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-extend.svg)](https://travis-ci.org/npmtest/node-npmtest-extend)
+#### basic test coverage for  [extend (v3.0.0)](https://github.com/justmoon/node-extend#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-extend.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-extend) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-extend.svg)](https://travis-ci.org/npmtest/node-npmtest-extend)
 
 #### Port of jQuery.extend for node.js and the browser
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-extend/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-extend/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-extend/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-extend/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-extend/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-extend/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-extend/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-extend/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-extend/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-extend/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-extend/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-extend/build/coverage.html/index.html)
 
@@ -92,7 +92,8 @@
         "lint": "npm run jscs && npm run eslint",
         "test": "npm run lint && node test/index.js && npm run coverage-quiet"
     },
-    "version": "3.0.0"
+    "version": "3.0.0",
+    "bin": {}
 }
 ```
 
